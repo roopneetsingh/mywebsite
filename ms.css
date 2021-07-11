@@ -1,0 +1,49 @@
+.one {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-size: 30px;
+}
+img{
+  margin-left: 15%;
+  margin-top: 15%;
+}
+ .h1{
+ margin-left: 25%;
+ font-weight: bold;
+ color: #900C3F;
+ text-transform: uppercase;
+ font-size: 50px;
+ text-shadow: 1px 3px #900C3F;
+}
+.subh,.lead{
+  margin-top: 2%;
+ margin-left: 25%;
+ font-weight: bold;
+ font-size: 30px;
+ color: #abb1b5  ;
+}
+.one a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.one a.active {
+  background-color: darkorange ;
+  color: blue;
+}
+/* Links on mouse-over */
+.one a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+}
